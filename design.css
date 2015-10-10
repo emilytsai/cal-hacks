@@ -1,0 +1,69 @@
+body, html {
+	margin: 0px, auto;
+	padding: 0;
+	width: 100%;
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Navigation Bar */
+.navbar-container {
+	opacity: 0.6;
+	color: gray;
+	border-bottom: 1px solid gray;
+}
+
+#navbar-title {
+	position: relative;
+	padding-left: 30px;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+}
+
+#navbar-options {
+	position: relative;
+	float: right;
+	padding-right: 30px;
+	padding-top: 12px;
+}
+
+#navbar-options li {
+	padding-left: 20px;
+	display: inline-block;
+}
+
+#navbar-options a {
+	color: gray;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#navbar-options a:hover {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* Homepage */
+.home-container {
+	position: relative;
+	padding: 50px;
+}
+
+#grocerylist {
+	position: relative;
+	width: 50%;
+	margin: auto;
+	float: left;
+}
+
+#refrigerator {
+	position: relative;
+	width: 50%;
+	margin: auto;
+	float: right;
+}
