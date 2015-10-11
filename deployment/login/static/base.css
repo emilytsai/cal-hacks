@@ -1,11 +1,12 @@
 body {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	width: 100%;
-	background-color: gray;
+	background-color: rgba(128, 128, 128, 0.5);
 }
 
 .header {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
 	font-size: 34px;
 	text-align: center;
 	color: white;
@@ -92,3 +93,10 @@ a {
     background: rgba(255,255,255,0.5);
     margin: 0 0 10px 0;
 }
+
+.inc {
+	position: absolute;
+	right: 1%;
+	bottom: 0.5%;
+}
+

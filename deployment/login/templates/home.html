@@ -1,7 +1,10 @@
 <!-- home.html -->
 {% extends "base.html" %}
 {% block title %}Welcome to EATR{% endblock %}
-{% block head %}Hi, {{ user.username }}!{% endblock %}
+{% block head %}hi, {{ user.username }}!{% endblock %}
 {% block content %}
+<body>
     <a class="logout" href="/logout/">Logout</a>
+    <p class="inc">eatr, inc.</p>
+</body>
 {% endblock %}
