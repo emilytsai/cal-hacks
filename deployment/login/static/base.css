@@ -6,13 +6,25 @@ body {
 }
 
 .header {
+	font-size: 34px;
 	text-align: center;
 	color: white;
 }
 
 .userpw {
 	margin: auto;
+	padding-top: 8%;
 	padding-bottom: 20px;
+}
+
+#log {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#logg {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 input {
