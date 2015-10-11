@@ -16,7 +16,7 @@ class List(models.Model):
 
 class Item(models.Model):
 	name = models.CharField(max_length=250)
-	life = models.PositiveIntegerField()
+	life = models.IntegerField(default=10)
 	date = models.DateTimeField(default=datetime.now)
 	completed = models.BooleanField(default=False)
 	stock = models.ForeignKey(List)
@@ -26,3 +26,22 @@ class Item(models.Model):
 		ordering = ["-life", "name"]
 	class Admin:
 		pass
+
+# PRIORITY_CHOICES = ( 
+# 	(1, 'Low'), 
+#     (2, 'Normal'), 
+#     (3, 'High'), 
+# ) 
+
+# class Item(models.Model): 
+#     title = models.CharField(maxlength=250) 
+#     created_date = models.DateTimeField(default=datetime.now) 
+#     priority = models.IntegerField(choices=PRIORITY_CHOICES, default=2) 
+#     completed = models.BooleanField(default=False) 
+#     todo_list = models.ForeignKey(List) 
+#     def __str__(self): 
+#         return self.title 
+#     class Meta: 
+#         ordering = ['-priority', 'title'] 
+#     class Admin: 
+#         pass

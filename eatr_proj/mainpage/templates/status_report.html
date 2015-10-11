@@ -10,12 +10,12 @@
   <body>  
     <h1>To-do list status report</h1>  
   {% for list_dict in todo_listing %}  
-    <h2>{{ list_dict.list_object.title }}</h2>  
+    <h2>{{ list_dict.list_object.name }}</h2>  
     <ul>  
-      <li>Number of items: {{ list_dict.item_count }}</li>  
+      <li>Items: {{ list_dict.item_count }}</li>  
       <li>Number completed: {{ list_dict.items_complete }} ({{ list_dict.percent_complete }}%)</li>  
     </ul>  
   {% endfor %}  
-    </body>  
+    </body>
 
 </html>
