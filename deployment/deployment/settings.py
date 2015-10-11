@@ -8,6 +8,9 @@ https://docs.djangoproject.com/en/1.8/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.8/ref/settings/
+
+*** Credit to: https://mayukhsaha.wordpress.com/2013/05/09/simple-login-and-user-registration-application-using-django/ 
+*** for providing information/code.
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
