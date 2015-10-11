@@ -44,9 +44,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # UNCOMMENT TO ENABLE ADMIN DOCUMENTATION:
-    # 'django.contrib.admindocs',
+    'django.contrib.admindocs',
     # ADDED APP NAME LOGIN DIRECTIVE:
     'login',
+    'mainpage'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -73,6 +74,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'mainpage/templates/',
             ],
         },
     },
