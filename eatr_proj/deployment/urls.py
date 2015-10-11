@@ -28,6 +28,6 @@ urlpatterns = patterns('',
     url(r'^register/$', register),
     url(r'^register/success/$', register_success),
     url(r'^home/$', home),
-    url(r'^admin/$', include(admin.site.urls))
-    url(r'^report/$', 'eatr_proj.mainpage.views.status_report'),
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'^report/$', 'mainpage.views.report'),
 )

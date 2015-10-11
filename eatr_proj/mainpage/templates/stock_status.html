@@ -1,15 +1,14 @@
-<!-- home.html -->
-{% extends "base.html" %}
+<!-- {% extends "login/templates/base.html" %}
 {% block title %}Welcome to EATR{% endblock %}
 {% block head %}Welcome to EATR{% endblock %}
 {% block content %}
     <p>Hi {{ user.username }}!</p>
     <a class="logout" href="/logout/">Logout</a>
- <!--    <form method="post" action=".">
+    <form method="post" action=".">{% csrf_token %}
         <table border="0">
             <tr><th><label for="item">New Item:</label></th><td>{{ form.item }}</td></tr>
             <tr><th><label for="shelf_life">Shelf Life:</label></th><td>{{ form.life }}</td></tr>
-        </table> 
+        </table>
         <input type="submit" value="Add to list" />
-    </form> -->
-{% endblock %}
+    </form>
+{% endblock %} -->
