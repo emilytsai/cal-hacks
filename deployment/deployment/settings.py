@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     # UNCOMMENT TO ENABLE ADMIN DOCUMENTATION:
     # 'django.contrib.admindocs',
-    # ADDED APP NAME LOGIN DIRECTIVE
+    # ADDED APP NAME LOGIN DIRECTIVE:
     'login',
 )
 
