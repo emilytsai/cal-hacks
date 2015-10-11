@@ -1,13 +1,14 @@
 <!-- register.html -->
 {% extends "base.html" %}
 {% block title %}User Registration{% endblock %}
-{% block head %}User Registration{% endblock %}
+{% block head %}USER REGISTRATION{% endblock %}
 {% block content %}
     <form method="post" action=".">{% csrf_token %}
-        <table border="0">
+        <table class="userpw" border="0">
             {{ form.as_table }}
         </table>
         <input type="submit" value="Register" />
     </form>
-    <a href="/">Login</a>
+    <div class="loginreg"><a href="/">Login</a></div>
+    <div class="clear"></div>
 {% endblock %}
