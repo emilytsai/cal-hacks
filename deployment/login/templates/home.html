@@ -1,8 +1,8 @@
 <!-- home.html -->
 {% extends "base.html" %}
-{% block title %}Welcome to Django{% endblock %}
-{% block head %}Welcome to Django{% endblock %}
+{% block title %}Welcome to EATR{% endblock %}
+{% block head %}Welcome to EATR{% endblock %}
 {% block content %}
-    <p>Welcome {{ user.username }}!!!</p>
-    <a href="/logout/">Logout</a>
+    <p>Hi {{ user.username }}!</p>
+    <a class="logout" href="/logout/">Logout</a>
 {% endblock %}
